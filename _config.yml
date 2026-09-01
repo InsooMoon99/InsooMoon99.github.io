@@ -68,6 +68,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/InsooMoon99/"
+    - label: "Gmail"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:본인아이디@gmail.com"
+    - label: "Naver"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:본인아이디@naver.com"
 
 footer:
   links:
@@ -77,6 +83,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/InsooMoon99/"
+    - label: "Gmail"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:본인아이디@gmail.com"
+    - label: "Naver"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:본인아이디@naver.com"
 
 defaults:
   # _posts
