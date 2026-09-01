@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Insoo Moon"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "게임 클라이언트 개발자"
+  bio    : "게임 클라이언트 개발자 지망생입니다."
   links:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
