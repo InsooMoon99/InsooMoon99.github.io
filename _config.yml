@@ -70,7 +70,7 @@ author:
       url: "https://github.com/InsooMoon99/"
     - label: "Email - insoo9322@gmail.com"
       icon: "fas fa-fw fa-envelope"
-      #url: "mailto:insoo9322@gmail.com"
+      url: "mailto:insoo9322@gmail.com"
 
 footer:
   links:
@@ -82,7 +82,7 @@ footer:
       url: "https://github.com/InsooMoon99/"
     - label: "Email - insoo9322@gmail.com"
       icon: "fas fa-fw fa-envelope"
-      #url: "mailto:insoo9322@gmail.com"
+      url: "mailto:insoo9322@gmail.com"
 
 defaults:
   # _posts
