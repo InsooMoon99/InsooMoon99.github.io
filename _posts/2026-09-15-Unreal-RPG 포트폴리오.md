@@ -6,8 +6,6 @@ tags:
   - Unreal
 ---
 
-# Unreal C++ RPG 포트폴리오
-
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0;">
   <iframe
     src="https://www.youtube.com/embed/hWazQvsdSos"
