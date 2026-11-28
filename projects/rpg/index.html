@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unreal RPG · 문인수</title>
+<meta property="og:image" content="../../assets/img/rpg/hero.webp">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+
+<nav class="nav"><div class="nav-in">
+  <a class="home" href="../../">문인수</a>
+  <a href="../expedition/">Expedition_158</a>
+  <a href="../felixparty/">Felix Party</a>
+  <a href="../push/">PUSH!!</a>
+  <a href="../rpg/" style="color:var(--accent)">Unreal RPG</a>
+  <a href="../../ai/">AI 협업</a>
+</div></nav>
+
+<main class="wrap">
+  <section class="proj" style="border-top:0">
+    <div class="proj-head">
+      <div>
+        <div class="chips"><span class="chip">Unreal Engine 4</span><span class="chip">C++</span><span class="chip">Behavior Tree</span></div>
+        <h2>Unreal RPG</h2>
+        <p class="one">무기 4종의 전투와 적 AI, 파쿠르를 갖춘 오픈월드 싱글 액션 RPG입니다. 혼자 전부 만들었습니다.</p>
+        <dl class="meta"><dt>기간</dt><dd>2023.07 – 2023.09 (약 2개월)</dd><dt>인원</dt><dd>1인</dd><dt>담당</dt><dd>전체</dd></dl>
+        <div class="links">
+          <a class="btn" href="https://youtu.be/hWazQvsdSos">▶ 플레이 영상</a>
+          <a class="btn" href="https://github.com/InsooMoon99/Unreal_C-_Portfolio">GitHub</a>
+        </div>
+      </div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/hWazQvsdSos" title="Unreal RPG 플레이 영상" allowfullscreen loading="lazy"></iframe></div>
+    </div>
+
+    <h2 class="sec-title">플레이 장면</h2>
+    <div class="gallery">
+      <figure><img src="../../assets/img/rpg/hero.webp" alt="필드" loading="lazy"><figcaption>필드</figcaption></figure>
+      <figure><img src="../../assets/img/rpg/parry.webp" alt="반격" loading="lazy"><figcaption>반격</figcaption></figure>
+      <figure><img src="../../assets/img/rpg/bow.webp" alt="활 조준" loading="lazy"><figcaption>활 조준</figcaption></figure>
+      <figure><img src="../../assets/img/rpg/target.webp" alt="타겟팅" loading="lazy"><figcaption>타겟팅</figcaption></figure>
+      <figure><img src="../../assets/img/rpg/ik.webp" alt="발 IK 전/후" loading="lazy"><figcaption>발 IK 전/후</figcaption></figure>
+      <figure><img src="../../assets/img/rpg/parkour.webp" alt="파쿠르" loading="lazy"><figcaption>파쿠르</figcaption></figure>
+    </div>
+
+    <h2 class="sec-title">대표 기능</h2>
+    <div class="feats">
+      <div class="feat"><img src="../../assets/img/rpg/combo.webp" alt="무기 4종과 콤보" loading="lazy"><div class="t"><h3>무기 4종과 콤보</h3><p>망치, 검, 활, 지팡이마다 공격과 스킬이 다르고, 타이밍 맞춰 누르면 콤보가 이어집니다.</p></div></div>
+      <div class="feat"><img src="../../assets/img/rpg/parry.webp" alt="가드 · 반격 · 처형" loading="lazy"><div class="t"><h3>가드 · 반격 · 처형</h3><p>정해진 순간에 막으면 반격하고, 기절한 적에게 처형 기술을 쓸 수 있습니다.</p></div></div>
+      <div class="feat"><img src="../../assets/img/rpg/parkour.webp" alt="파쿠르" loading="lazy"><div class="t"><h3>파쿠르</h3><p>앞의 지형을 감지해 오르기, 뛰어넘기, 벽 점프, 슬라이딩 중 맞는 동작을 고릅니다.</p></div></div>
+      <div class="feat"><img src="../../assets/img/rpg/ik.webp" alt="경사면 발 IK" loading="lazy"><div class="t"><h3>경사면 발 IK</h3><p>계단과 경사에서도 발이 바닥에 닿도록 다리와 골반 위치를 맞춥니다.</p></div></div>
+    </div>
+
+    <h2 class="sec-title">직접 만든 도구</h2>
+    <p class="sec-sub">게임 화면에는 안 보이지만 작업 속도를 바꾼 에디터와 툴입니다.</p>
+    <div class="feats">
+      <div class="feat"><img src="../../assets/img/rpg/debug.webp" alt="디버그 텍스트" loading="lazy"><div class="t"><h3>디버그 텍스트</h3><p>플레이어와 적의 상태, 무기, 위치를 화면에 바로 표시</p></div></div>
+    </div>
+    
+
+    <h2 class="sec-title">기억에 남는 문제</h2>
+    <div class="memo"><h3>플레이어가 무기를 들면 적도 같이 들던 문제</h3><p>같은 무기 데이터를 쓰는 캐릭터들이 실행 객체까지 함께 쓰고 있었습니다. 데이터는 공유하되 실행 객체는 캐릭터마다 새로 만들게 바꿔 해결했습니다.</p></div>
+    <p class="small">구현 방식과 코드는 기술서에 자세히 정리했습니다.</p>
+
+    <div class="pager"><a href="../push/">← PUSH!!</a><a href="../../ai/">AI 협업 →</a></div>
+  </section>
+</main>
+
+<footer><div class="wrap">문인수 · insoo9322@gmail.com</div></footer>
+</body>
+</html>

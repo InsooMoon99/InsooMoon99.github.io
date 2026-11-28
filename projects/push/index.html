@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PUSH!! · 문인수</title>
+<meta property="og:image" content="../../assets/img/push/title.webp">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+
+<nav class="nav"><div class="nav-in">
+  <a class="home" href="../../">문인수</a>
+  <a href="../expedition/">Expedition_158</a>
+  <a href="../felixparty/">Felix Party</a>
+  <a href="../push/" style="color:var(--accent)">PUSH!!</a>
+  <a href="../rpg/">Unreal RPG</a>
+  <a href="../../ai/">AI 협업</a>
+</div></nav>
+
+<main class="wrap">
+  <section class="proj" style="border-top:0">
+    <div class="proj-head">
+      <div>
+        <div class="chips"><span class="chip">Unreal Engine 4</span><span class="chip">C++</span><span class="chip">Dedicated Server</span></div>
+        <h2>PUSH!!</h2>
+        <p class="one">줄어드는 자기장 안에서 스킬과 아이템으로 상대를 밀어내는 5라운드 멀티 서바이벌 게임입니다. 첫 팀 프로젝트였습니다.</p>
+        <dl class="meta"><dt>기간</dt><dd>2023.12.26 – 2024.02 (5주)</dd><dt>인원</dt><dd>5인</dd><dt>담당</dt><dd>로비 · 라운드 진행, 자기장, 스킬 · 아이템, 채팅, 리더보드</dd></dl>
+        <div class="links">
+          <a class="btn" href="https://youtu.be/mFgLvDtfxdA">▶ 플레이 영상</a>
+          <a class="btn" href="https://github.com/InsooMoon99/MultiplayProject_PUSH">GitHub</a>
+        </div>
+      </div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/mFgLvDtfxdA" title="PUSH!! 플레이 영상" allowfullscreen loading="lazy"></iframe></div>
+    </div>
+
+    <h2 class="sec-title">플레이 장면</h2>
+    <div class="gallery">
+      <figure><img src="../../assets/img/push/title.webp" alt="접속 화면" loading="lazy"><figcaption>접속 화면</figcaption></figure>
+      <figure><img src="../../assets/img/push/waiting.webp" alt="대기실" loading="lazy"><figcaption>대기실</figcaption></figure>
+      <figure><img src="../../assets/img/push/store.webp" alt="상점" loading="lazy"><figcaption>상점</figcaption></figure>
+      <figure><img src="../../assets/img/push/skill.webp" alt="스킬 사용" loading="lazy"><figcaption>스킬 사용</figcaption></figure>
+      <figure><img src="../../assets/img/push/field.webp" alt="자기장" loading="lazy"><figcaption>자기장</figcaption></figure>
+      <figure><img src="../../assets/img/push/leader.webp" alt="리더보드" loading="lazy"><figcaption>리더보드</figcaption></figure>
+    </div>
+
+    <h2 class="sec-title">대표 기능</h2>
+    <div class="feats">
+      <div class="feat"><img src="../../assets/img/push/waiting.webp" alt="대기실과 라운드 진행" loading="lazy"><div class="t"><h3>대기실과 라운드 진행</h3><p>모두 준비하면 게임이 시작되고, 상점 → 라운드 → 결과를 5번 반복합니다.</p></div></div>
+      <div class="feat"><img src="../../assets/img/push/store.webp" alt="상점에서 고르는 스킬과 아이템" loading="lazy"><div class="t"><h3>상점에서 고르는 스킬과 아이템</h3><p>라운드 순위로 받은 골드로 스킬과 아이템을 사서 슬롯에 끌어다 놓습니다.</p></div></div>
+      <div class="feat"><img src="../../assets/img/push/field.webp" alt="줄어드는 자기장" loading="lazy"><div class="t"><h3>줄어드는 자기장</h3><p>시간이 지나면 안전 구역이 줄어들고, 밖으로 밀려나면 피해를 입습니다.</p></div></div>
+      <div class="feat"><img src="../../assets/img/push/leader.webp" alt="채팅 · 킬 로그 · 리더보드" loading="lazy"><div class="t"><h3>채팅 · 킬 로그 · 리더보드</h3><p>Tab으로 킬/데스와 골드를 보고, Enter로 채팅합니다.</p></div></div>
+    </div>
+
+
+    <h2 class="sec-title">기억에 남는 문제</h2>
+    <div class="memo"><h3>다른 사람 화면에서는 스킬이 엉뚱한 곳에</h3><p>스킬을 쓴 본인 화면에서는 맞는 위치에 떨어지는데, 다른 플레이어 화면에서는 원점에 생겼습니다. 위치를 사용자 쪽에서만 계산하고 있었던 것이 원인이라, 서버를 거쳐 모두에게 전달되게 바꿨습니다.</p></div>
+    <p class="small">구현 방식과 코드는 기술서에 자세히 정리했습니다.</p>
+
+    <div class="pager"><a href="../felixparty/">← Felix Party</a><a href="../rpg/">Unreal RPG →</a></div>
+  </section>
+</main>
+
+<footer><div class="wrap">문인수 · insoo9322@gmail.com</div></footer>
+</body>
+</html>
