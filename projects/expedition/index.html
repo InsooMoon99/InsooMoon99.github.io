@@ -4,77 +4,92 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Expedition_158 · 문인수</title>
-<meta property="og:image" content="../../assets/img/ex/hero.webp">
+<meta name="description" content="게임 프로그래머 문인수의 포트폴리오 · C++ · Unreal Engine · DirectX 11">
+<meta property="og:image" content="../../assets/img/ex/closing.webp">
 <link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body>
+<nav class="nav"><div class="w"><a class="me" href="../../">문인수</a><a href="../../projects/expedition/" class="on">Expedition_158</a><a href="../../projects/felixparty/">Felix Party</a><a href="../../projects/push/">PUSH!!</a><a href="../../projects/rpg/">Unreal RPG</a></div></nav>
 
-<nav class="nav"><div class="nav-in">
-  <a class="home" href="../../">문인수</a>
-  <a href="../expedition/" style="color:var(--accent)">Expedition_158</a>
-  <a href="../felixparty/">Felix Party</a>
-  <a href="../push/">PUSH!!</a>
-  <a href="../rpg/">Unreal RPG</a>
-</div></nav>
-
-<main class="wrap">
-  <section class="proj" style="border-top:0">
-    <div class="proj-head">
-      <div>
-        <div class="chips"><span class="chip">C++</span><span class="chip">DirectX 11</span><span class="chip">자체 엔진</span><span class="chip">PhysX</span></div>
-        <h2>Expedition_158</h2>
-        <p class="one">자체 C++ / DirectX 11 엔진으로 만든 33원정대 모작입니다. 턴제 전투와 필드 이동이 있는 3D RPG입니다.</p>
-        <dl class="meta"><dt>기간</dt><dd>2026.05.01 – 2026.07.06 (2개월)</dd><dt>인원</dt><dd>8인</dd><dt>담당</dt><dd>프로젝트 구조 · 에디터 · 애니메이션 이벤트 · 전투 시스템</dd></dl>
-        <div class="links">
-          <a class="btn" href="https://youtu.be/2ZbroApOf8k">▶ 플레이 영상</a>
-          <a class="btn" href="https://github.com/InsooMoon99/Expedition_158_Public">GitHub</a>
-        </div>
-      </div>
-      <div class="video"><iframe src="https://www.youtube.com/embed/2ZbroApOf8k" title="Expedition_158 플레이 영상" allowfullscreen loading="lazy"></iframe></div>
+<header class="phero">
+  <div class="shot" style="background-image:url('../../assets/img/ex/closing.webp'); background-position:70% 50%"></div>
+  <div class="w">
+    <div class="meta-line">33원정대 모작 · 2026.05.01 – 2026.07.06 · 8인 · C++ · DirectX 11 · 자체 엔진 · PhysX · ImGui</div>
+    <h1>Expedition_158</h1>
+    <p class="say">자체 C++ / DirectX 11 엔진으로 만든 33원정대 모작입니다. 필드 이동과 턴제 전투가 있는 3D RPG를 8명이 함께 만들었습니다.</p>
+    <dl class="facts"><dt>기간</dt><dd>2026.05.01 – 2026.07.06 (2개월)</dd><dt>인원</dt><dd>8인</dd><dt>담당</dt><dd>프로젝트 구조 · 메인 에디터 · 애니메이션 이벤트 · 전투 시스템</dd></dl>
+    <div class="cta">
+      <a class="more" href="https://youtu.be/2ZbroApOf8k">▶ YouTube에서 영상 보기</a>
+      <a class="ghost" href="https://github.com/InsooMoon99/Expedition_158_Public">GitHub 코드 ↗</a>
     </div>
+  </div>
+</header>
 
-    <h2 class="sec-title">플레이 장면</h2>
-    <div class="gallery">
-      <figure><img src="../../assets/img/ex/hero.webp" alt="전투" loading="lazy"><figcaption>전투</figcaption></figure>
-      <figure><img src="../../assets/img/ex/party.webp" alt="파티 이동" loading="lazy"><figcaption>파티 이동</figcaption></figure>
-      <figure><img src="../../assets/img/ex/combat.webp" alt="상점" loading="lazy"><figcaption>상점</figcaption></figure>
-      <figure><img src="../../assets/img/ex/skill.webp" alt="스킬 선택" loading="lazy"><figcaption>스킬 선택</figcaption></figure>
-      <figure><img src="../../assets/img/ex/status.webp" alt="캐릭터 스탯" loading="lazy"><figcaption>캐릭터 스탯</figcaption></figure>
-      <figure><img src="../../assets/img/ex/cam_after.webp" alt="필드 카메라" loading="lazy"><figcaption>필드 카메라</figcaption></figure>
-    </div>
-
-    <h2 class="sec-title">대표 기능</h2>
-    <div class="feats">
-      <div class="feat"><img src="../../assets/img/ex/arch.webp" alt="엔진 · 게임 · 에디터를 나눈 구조" loading="lazy"><div class="t"><h3>엔진 · 게임 · 에디터를 나눈 구조</h3><p>엔진, 게임 클라이언트, 에디터를 따로 나눠 8명이 서로 덜 부딪히며 작업할 수 있게 했습니다.</p></div></div>
-      <div class="feat"><img src="../../assets/img/ex/sheet.webp" alt="구글 시트로 관리하는 게임 데이터" loading="lazy"><div class="t"><h3>구글 시트로 관리하는 게임 데이터</h3><p>수치는 구글 시트에서 고치고 JSON으로 바꿔 게임이 읽습니다. 기획 수정에 코드 빌드가 필요 없습니다.</p></div></div>
-      <div class="feat"><img src="../../assets/img/ex/notify.webp" alt="애니메이션 이벤트로 전투 타이밍" loading="lazy"><div class="t"><h3>애니메이션 이벤트로 전투 타이밍</h3><p>공격 판정, 사운드, 이펙트, QTE를 애니메이션 타임라인 위에 놓고 저장합니다.</p></div></div>
-      <div class="feat"><img src="../../assets/img/ex/party.webp" alt="파티 이동과 카메라" loading="lazy"><div class="t"><h3>파티 이동과 카메라</h3><p>동료가 앞사람의 경로를 따라오고, 카메라는 벽에 가려지면 앞으로 당겨집니다.</p></div></div>
-    </div>
-
-    <h2 class="sec-title">직접 만든 도구</h2>
-    <p class="sec-sub">게임 화면에는 안 보이지만 작업 속도를 바꾼 에디터와 툴입니다.</p>
-    <div class="spot">
-      <figure><img src="../../assets/img/ex/maineditor.webp" alt="메인 에디터" loading="lazy"></figure>
-      <h3>메인 에디터</h3>
-      <p class="one">씬, 하이어라키, 인스펙터, 콘텐츠 브라우저를 한 화면에 두고, 에디터 안에서 바로 플레이해 보며 작업합니다.</p>
-      <div class="spot-pts"><div><h4>GUID로 관리하는 에셋</h4><p>리소스마다 메타 파일을 만들어 고유 GUID를 붙이고, 레지스트리에 모아 둡니다. 파일 위치나 이름이 바뀌어도 데이터는 GUID로 찾기 때문에 연결이 끊기지 않습니다. 에셋 약 15,000개를 시작할 때 다시 다 훑지 않고, 저장해 둔 레지스트리를 읽어 바뀐 것만 반영합니다.</p></div><div><h4>화면과 파일에 함께 남는 로그</h4><p>왼쪽 콘솔에 로그가 실시간으로 뜨고 Trace · Debug · Info · Warn · Error로 걸러 볼 수 있습니다. 같은 로그가 프로그램별 .log 파일로도 남아서, 문제가 생기면 어느 단계에서 터졌는지 파일을 열어 추적합니다.</p></div><div><h4>시작 단계별 소요 시간</h4><p>엔진 초기화, 레지스트리 로드 같은 시작 단계마다 걸린 시간을 로그로 남겨, 에디터가 느려지면 어디가 원인인지 바로 보입니다.</p></div></div>
-    </div>
-    <div class="feats">
-      <div class="feat"><img src="../../assets/img/ex/editor.webp" alt="인스펙터" loading="lazy"><div class="t"><h3>인스펙터</h3><p>컴포넌트 값을 에디터에서 바로 고치고 프리팹으로 저장</p></div></div>
-      <div class="feat"><img src="../../assets/img/ex/prefab_drag.webp" alt="콘텐츠 브라우저 · 프리팹 배치" loading="lazy"><div class="t"><h3>콘텐츠 브라우저 · 프리팹 배치</h3><p>프리팹을 끌어다 맵에 놓고 저장</p></div></div>
-      <div class="feat"><img src="../../assets/img/ex/notify.webp" alt="애니메이션 노티파이 툴" loading="lazy"><div class="t"><h3>애니메이션 노티파이 툴</h3><p>타임라인에 이벤트를 배치</p></div></div>
-      <div class="feat"><img src="../../assets/img/ex/profiler.webp" alt="프로파일러" loading="lazy"><div class="t"><h3>프로파일러</h3><p>구간별 프레임 비용을 실시간으로 확인</p></div></div>
-    </div>
-    <div class="todo">에디터 · 툴 자료 추가 예정 (Animation View, AnimState View, Level Tool, 카메라 뷰어 등)</div>
-
-    <h2 class="sec-title">기억에 남는 문제</h2>
-    <div class="memo"><h3>고폴리곤 맵에서 떨어지던 프레임</h3><p>원작이 UE5 Nanite를 전제로 만든 고밀도 메시라 그대로는 감당이 안 됐습니다. 직접 만든 프로파일러로 렌더링이 병목인 것을 확인하고, 거리별 LOD와 단순한 충돌 메시로 바꿔 해결했습니다.</p></div>
-    <p class="small">구현 방식과 코드는 기술서에 자세히 정리했습니다.</p>
-
-    <div class="pager"><a href="../../">← 처음으로</a><a href="../felixparty/">Felix Party →</a></div>
+<main class="w">
+  <section class="block">
+    <div class="kicker"><span class="bar"></span><b>플레이 장면</b></div>
+    <div class="shots"><figure><img src="../../assets/img/ex/closing.webp" alt="필드" loading="lazy"><figcaption><span>게임 화면</span>필드</figcaption></figure><figure><img src="../../assets/img/ex/hero.webp" alt="보스전" loading="lazy"><figcaption><span>게임 화면</span>보스전</figcaption></figure><figure><img src="../../assets/img/ex/party.webp" alt="동료 해금" loading="lazy"><figcaption><span>게임 화면</span>동료 해금</figcaption></figure></div>
+    <div class="shots more-row"><figure><img src="../../assets/img/ex/skill.webp" alt="스킬 선택" loading="lazy"><figcaption><span>게임 화면</span>스킬 선택</figcaption></figure><figure><img src="../../assets/img/ex/combat.webp" alt="상점" loading="lazy"><figcaption><span>게임 화면</span>상점</figcaption></figure><figure><img src="../../assets/img/ex/status.webp" alt="캐릭터 스탯" loading="lazy"><figcaption><span>게임 화면</span>캐릭터 스탯</figcaption></figure></div>
   </section>
-</main>
+<section class="case" id="case1">
+  <div class="kicker"><span class="bar"></span><b>사례 01</b><span class="chip">데이터 파이프라인</span></div>
+  <h2 class="big">구글 시트 → JSON → 에디터 프리팹, <em>데이터를 코드와 분리</em></h2>
+  <p class="lead">8명이 같은 수치를 만지는데 데이터가 코드 안에 있으면 수정마다 빌드가 필요했습니다. 그래서 데이터를 밖으로 뺐습니다.</p>
+  <div class="case-body"><ol class="steps"><li><span>공통 데이터는 구글 시트에서 관리하고, JSON으로 변환해 런타임에 읽습니다.</span></li><li><span>컴포넌트 변수는 직렬화 매크로로 에디터에 노출하고, 편집 결과를 프리팹 JSON으로 저장합니다.</span></li><li><span>에디터에서 끌어다 놓는 배치와 코드 스폰(<code>Spawn_Prefab::Builder</code>)이 같은 프리팹 데이터를 씁니다.</span></li></ol><div class="stack"><figure class="fig"><pre><code>PROPERTY_FLOAT(&quot;Walk Speed&quot;, _moveDesc.walkSpeed, 0.f, 30.f, 0.1f);
+PROPERTY_FLOAT(&quot;Run Speed&quot;,  _moveDesc.runSpeed,  0.f, 30.f, 0.1f);
 
-<footer><div class="wrap">문인수 · insoo9322@gmail.com</div></footer>
+Spawn_Prefab::Builder(Prefab)
+    .AtLevel(Level).InLayer(L&quot;Layer_Monster&quot;)
+    .Position(SpawnPos).Rotation(SpawnRot)
+    .Spawn();</code></pre><figcaption><b>코드</b>핵심 부분만 옮겼습니다</figcaption></figure><figure class="fig"><img src="../../assets/img/ex/arch.webp" alt="엔진 · 런타임 · 제작 도구와 데이터 흐름" loading="lazy"><figcaption><b>화면</b>엔진 · 런타임 · 제작 도구와 데이터 흐름</figcaption></figure></div></div>
+</section>
+<section class="case" id="case2">
+  <div class="kicker"><span class="bar"></span><b>사례 02</b><span class="chip">애니메이션</span></div>
+  <h2 class="big">Notify / Notify State로 <em>전투 타이밍을 데이터로</em></h2>
+  <p class="lead">공격 판정이나 이펙트를 코드에서 프레임 번호로 박으면 애니메이션이 바뀔 때마다 고쳐야 합니다. 타임라인 위의 이벤트로 바꿨습니다.</p>
+  <div class="case-body"><ol class="steps"><li><span>Notify(단발)로 사운드, 공격 판정, 이펙트를 원하는 프레임에 실행합니다.</span></li><li><span>Notify State(구간)로 QTE, 잔상, 타임스케일처럼 시작과 끝이 있는 효과를 표현합니다.</span></li><li><span>노티파이도 직렬화되어 캐릭터별 Animation 데이터에 들어가므로, 새 캐릭터를 추가해도 코드 수정이 없습니다.</span></li></ol><div class="stack"><figure class="fig"><img src="../../assets/img/ex/notify.webp" alt="애니메이션 노티파이 편집 툴" loading="lazy"><figcaption><b>화면</b>애니메이션 노티파이 편집 툴</figcaption></figure></div></div>
+</section>
+<section class="case" id="case3">
+  <div class="kicker"><span class="bar"></span><b>사례 03</b><span class="chip">멀티스레딩</span></div>
+  <h2 class="big">ThreadPool로 로딩 중에도 <em>프레임 유지</em></h2>
+  <p class="lead">에셋과 데이터 로딩을 메인 스레드에서 하면 그동안 화면이 멈춥니다. 고정 개수의 Worker에 일을 넘기도록 했습니다.</p>
+  <div class="case-body"><ol class="steps"><li><span>메인 스레드는 <code>Enqueue(job)</code>만 하고 바로 게임 루프로 돌아갑니다.</span></li><li><span>Worker는 <code>condition_variable</code>로 대기하다가 Job이 들어오면 깨어나 Lock 밖에서 실행합니다.</span></li><li><span>Worker 시작 시 <code>CoInitializeEx</code>로 COM을 초기화해 텍스처 로딩도 백그라운드에서 안전하게 처리합니다.</span></li><li><span>종료 시에는 새 Job을 거부하고 전체 Join 후 남은 Job을 정리합니다.</span></li></ol><div class="stack"><figure class="fig"><pre><code>bool ThreadPool::Enqueue(function&lt;void()&gt; job)
+{
+    if (!job) return false;
+    {
+        lock_guard&lt;mutex&gt; lock(_mutex);
+        if (_isStopping) return false;   // 종료 중이면 새 작업 거부
+        _jobs.push(std::move(job));
+    }
+    _cv.notify_one();                     // 잠든 Worker 하나 깨우기
+    return true;
+}</code></pre><figcaption><b>코드</b>핵심 부분만 옮겼습니다</figcaption></figure></div></div>
+</section>
+<section class="case" id="case4">
+  <div class="kicker"><span class="bar"></span><b>사례 04</b><span class="chip">카메라 · 이동</span></div>
+  <h2 class="big">동료가 따라오는 파티 이동과 <em>벽에 묻히지 않는 카메라</em></h2>
+  
+  <div class="case-body"><ol class="steps"><li><span>HeroManager가 조작 중인 캐릭터(Active)와 뒤따르는 동료(Follower)를 나눠 관리합니다.</span></li><li><span>Follower는 Active의 이동 궤적을 시간차를 두고 따라가며, 거리에 따라 걷기와 달리기를 바꿉니다.</span></li><li><span>카메라 피벗에서 목표 위치까지 Sphere Sweep을 쏴서, 막히면 즉시 당기고 장애물이 사라지면 부드럽게 돌아옵니다.</span></li><li><span>Sweep은 매 프레임이 아니라 일정 주기로만 다시 검사합니다.</span></li></ol><div class="stack"><figure class="fig"><img src="../../assets/img/ex/cam_after.webp" alt="장애물 앞에서 거리를 당긴 카메라" loading="lazy"><figcaption><b>화면</b>장애물 앞에서 거리를 당긴 카메라</figcaption></figure></div></div>
+</section>
+
+  <section class="block">
+    <div class="kicker"><span class="bar"></span><b>문제 해결</b></div>
+    <h2 class="big">막혔던 지점과 <em>푼 방법</em></h2>
+    <article class="trouble"><div><h3>고폴리곤 맵에서 Render·Draw가 약 30ms까지 늘어난 문제</h3><dl class="psr"><dt class="p">증상</dt><dd>환경 메시를 배치하자 프레임이 크게 떨어졌습니다.</dd><dt class="c">원인</dt><dd>직접 만든 프로파일러로 구간별 비용을 재 보니 Render·Draw가 약 30ms였습니다. 원작이 UE5 Nanite를 전제로 한 고밀도 메시라 자체 엔진에서는 그대로 감당할 수 없었습니다.</dd><dt class="s">해결</dt><dd>카메라 거리에 따라 원본 → 중간 → 저폴리곤으로 바꾸는 LOD를 넣고, PhysX 충돌용 메시는 렌더링 메시와 분리해 단순한 형상만 쓰게 했습니다.</dd><dt class="r">결과</dt><dd>환경 오브젝트 수를 유지한 채 프레임 저하를 줄였고, 필요한 충돌은 그대로 동작합니다.</dd></dl></div><figure class="fig"><img src="../../assets/img/ex/profiler.webp" alt="구간별 비용(ms) 프로파일러" loading="lazy"><figcaption><b>화면</b>구간별 비용(ms) 프로파일러</figcaption></figure></article>
+  </section>
+<section class="block">
+  <div class="kicker"><span class="bar"></span><b>직접 만든 도구</b><span class="chip">ImGui</span></div>
+  <h2 class="big">게임 화면 밖에서, <em>팀의 작업 속도</em>를 바꾼 에디터</h2>
+  <p class="lead">씬, 하이어라키, 인스펙터, 콘텐츠 브라우저를 한 화면에 두고, 에디터 안에서 바로 플레이해 보며 작업합니다.</p>
+  <div class="spot"><img src="../../assets/img/ex/maineditor.webp" alt="메인 에디터" loading="lazy"><div class="spot-pts"><div><h4>GUID로 관리하는 에셋</h4><p>리소스마다 메타 파일로 GUID를 붙이고 레지스트리에 모읍니다. 파일을 옮기거나 이름을 바꿔도 연결이 끊기지 않고, 에셋 약 15,000개를 시작 때 다시 훑지 않고 바뀐 것만 반영합니다.</p></div><div><h4>화면과 파일에 함께 남는 로그</h4><p>콘솔에 로그가 실시간으로 뜨고 Trace~Error로 걸러 볼 수 있습니다. 같은 로그가 프로그램별 .log 파일로도 남아, 문제가 생기면 어느 단계에서 터졌는지 추적합니다.</p></div><div><h4>시작 단계별 소요 시간</h4><p>엔진 초기화, 레지스트리 로드 같은 단계마다 걸린 시간을 로그로 남겨, 에디터가 느려지면 원인이 바로 보입니다.</p></div></div></div>
+  <div class="tools"><figure><img src="../../assets/img/ex/editor.webp" alt="인스펙터" loading="lazy"><figcaption><b>인스펙터</b>컴포넌트 값을 바로 고치고 프리팹으로 저장</figcaption></figure><figure><img src="../../assets/img/ex/prefab_drag.webp" alt="콘텐츠 브라우저" loading="lazy"><figcaption><b>콘텐츠 브라우저</b>프리팹을 끌어다 맵에 배치</figcaption></figure><figure><img src="../../assets/img/ex/notify.webp" alt="애니메이션 노티파이 툴" loading="lazy"><figcaption><b>애니메이션 노티파이 툴</b>타임라인에 이벤트를 배치</figcaption></figure><figure><img src="../../assets/img/ex/profiler.webp" alt="프로파일러" loading="lazy"><figcaption><b>프로파일러</b>구간별 프레임 비용을 실시간 확인</figcaption></figure></div>
+</section>
+
+  <a class="next" href="../felixparty/"><span class="label">다음 프로젝트 →</span><b>Felix Party</b></a>
+</main>
+<footer><div class="w">
+  <span>문인수 · 게임 프로그래머</span>
+  <a href="mailto:insoo9322@gmail.com">insoo9322@gmail.com</a><a href="https://github.com/InsooMoon99">GitHub</a><a href="https://www.youtube.com/@%EB%AC%B8%EC%9D%B8%EC%88%98-i3t/playlists">YouTube</a>
+</div></footer>
 </body>
 </html>
